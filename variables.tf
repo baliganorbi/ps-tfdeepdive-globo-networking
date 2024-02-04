@@ -15,9 +15,9 @@ variable "prefix" {
 }
 
 variable "environment" {
-  type         = string
-  description  = "(Optional) Environment to use for all resources in this module. Default: dev"
-  default      = "dev"
+  type        = string
+  description = "(Optional) Environment to use for all resources in this module. Default: dev"
+  default     = "dev"
 }
 
 variable "cidr_block" {

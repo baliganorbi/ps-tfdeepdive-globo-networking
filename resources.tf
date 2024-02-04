@@ -20,6 +20,7 @@ locals {
     "Environment" = var.environment
     "Project"     = "terraform-learning"
     "Terraform"   = "true"
+    "BillingCode" = var.billing_code
   }
 }
 

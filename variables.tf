@@ -36,7 +36,6 @@ variable "public_subnets" {
   description = "(Optional) Map of public subnets to create with CIDR blocks. Key will be used as subnet name with prefix. Default: {subnet-1 ="
   default = {
     public-1 = "10.42.10.0/24"
-    public-2 = "10.42.11.0/24"
   }
 }
 
